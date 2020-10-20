@@ -18,5 +18,7 @@ qry = query to execute
 fln = file where query is stored
 tlt = report title
 
+```
 php mysql2telegram.php dbn=xxxxxxxxx usr=username pwd=password bot="telegrambot" dst=chatt_id qry="select 1 as result" tlt="Report ABC"
 php mysql2telegram.php dbn=xxxxxxxxx usr=username pwd=password bot="telegrambot" dst=chatt_id tlt="Report ABC" fln=test.sql 
+```
