@@ -1,11 +1,12 @@
 <?php
 
 /*
+Last version 20/10/2020
+Author: Estefan Civera (estefan.civera@algoma.it - www.algoma.it)
+
 
 php mysql2telegram.php [hst=host] [prt=port] dbn=name usr=user pwd=password bot=token dst=destination qry=query [fln=filename]
-
 php mysql2telegram.php dbn=database usr=user pwd=password bot="123465789:qwertyuiopASDFGHJKLZXCVBNM-1qwer" dst=111222333 qry="select 1" tlt="Report ABC"
-
 php mysql2telegram.php dbn=database usr=user pwd=password bot="123465789:qwertyuiopASDFGHJKLZXCVBNM-1qwer" dst=111222333 fln=test.sql tlt="Report SQL"
 
 */
