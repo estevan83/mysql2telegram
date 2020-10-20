@@ -3,7 +3,9 @@
 Send a result of a query as a telegram message
 
 ## Usage
+```
 php mysql2telegram.php [hst=host] [prt=port] dbn=name usr=user pwd=password bot=token dst=destination qry=query [fln=filename] [tlt=reporttitle]
+```
 
 where 
 * hst = connection host (default 3306)
